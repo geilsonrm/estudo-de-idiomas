@@ -81,6 +81,54 @@
                 "en": "to have",
                 "es": "tener"
               }
+            },
+            {
+              "id": 3,
+              "traducoes": {
+                "pt": "poder",
+                "en": "can",
+                "es": "poder"
+              }
+            },
+            {
+              "id": 4,
+              "traducoes": {
+                "pt": "dever",
+                "en": "must",
+                "es": "deber"
+              }
+            },
+            {
+              "id": 5,
+              "traducoes": {
+                "pt": "deveria",
+                "en": "should",
+                "es": "debería"
+              }
+            },
+            {
+              "id": 6,
+              "traducoes": {
+                "pt": "ir (futuro próximo)",
+                "en": "going to",
+                "es": "ir a"
+              }
+            },
+            {
+              "id": 7,
+              "traducoes": {
+                "pt": "estar (gerúndio)",
+                "en": "be (continuous)",
+                "es": "estar (gerundio)"
+              }
+            },
+            {
+              "id": 8,
+              "traducoes": {
+                "pt": "ter (particípio)",
+                "en": "have (perfect)",
+                "es": "haber (perfecto)"
+              }
             }
           ]
         }
