@@ -1,0 +1,90 @@
+const appData = {
+  "modulos": [
+    {
+      "id": 1,
+      "nivel": "Basico",
+      "conteudos": [
+        {
+          "id": 1,
+          "nome": "Pronomes pessoais",
+          "palavras": [
+            {
+              "id": 1,
+              "traducoes": {
+                "pt": "eu",
+                "en": "I",
+                "es": "yo"
+              }
+            },
+            {
+              "id": 2,
+              "traducoes": {
+                "pt": "você",
+                "en": "you",
+                "es": "tú"
+              }
+            },
+            {
+              "id": 3,
+              "traducoes": {
+                "pt": "ele",
+                "en": "he",
+                "es": "él"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Pronomes possessivos",
+          "palavras": [
+            {
+              "id": 1,
+              "traducoes": {
+                "pt": "meu",
+                "en": "my",
+                "es": "mi"
+              }
+            },
+            {
+              "id": 2,
+              "traducoes": {
+                "pt": "seu",
+                "en": "your",
+                "es": "tu"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nivel": "Intermediario",
+      "conteudos": [
+        {
+          "id": 1,
+          "nome": "Verbos auxiliares",
+          "palavras": [
+            {
+              "id": 1,
+              "traducoes": {
+                "pt": "ser/estar",
+                "en": "to be",
+                "es": "ser/estar"
+              }
+            },
+            {
+              "id": 2,
+              "traducoes": {
+                "pt": "ter",
+                "en": "to have",
+                "es": "tener"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
