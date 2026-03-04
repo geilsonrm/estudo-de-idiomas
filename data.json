@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "modulos": [
     {
       "id": 1,
@@ -9,52 +9,54 @@
           "id": 1,
           "nome": "Pronomes pessoais",
           "palavras": [
-            {
-              "id": 1,
-              "traducoes": {
-                "pt": "eu",
-                "en": "I",
-                "es": "yo"
-              }
-            },
-            {
-              "id": 2,
-              "traducoes": {
-                "pt": "você",
-                "en": "you",
-                "es": "tú"
-              }
-            },
-            {
-              "id": 3,
-              "traducoes": {
-                "pt": "ele",
-                "en": "he",
-                "es": "él"
-              }
-            }
+            { "id": 1, "traducoes": { "pt": "eu", "en": "I", "es": "yo" } },
+            { "id": 2, "traducoes": { "pt": "você", "en": "you", "es": "tú" } },
+            { "id": 3, "traducoes": { "pt": "ele", "en": "he", "es": "él" } }
           ]
         },
         {
           "id": 2,
           "nome": "Pronomes possessivos",
           "palavras": [
-            {
-              "id": 1,
-              "traducoes": {
-                "pt": "meu",
-                "en": "my",
-                "es": "mi"
-              }
-            },
-            {
-              "id": 2,
-              "traducoes": {
-                "pt": "seu",
-                "en": "your",
-                "es": "tu"
-              }
-            }
+            { "id": 1, "traducoes": { "pt": "meu", "en": "my", "es": "mi" } },
+            { "id": 2, "traducoes": { "pt": "seu", "en": "your", "es": "su" } }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Verbos principais",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "comer", "en": "eat", "es": "comer" } },
+            { "id": 2, "traducoes": { "pt": "beber", "en": "drink", "es": "beber" } },
+            { "id": 3, "traducoes": { "pt": "ver", "en": "see", "es": "ver" } },
+            { "id": 4, "traducoes": { "pt": "falar", "en": "speak", "es": "hablar" } },
+            { "id": 5, "traducoes": { "pt": "ir", "en": "go", "es": "ir" } },
+            { "id": 6, "traducoes": { "pt": "vir", "en": "come", "es": "venir" } },
+            { "id": 7, "traducoes": { "pt": "trabalhar", "en": "work", "es": "trabajar" } },
+            { "id": 8, "traducoes": { "pt": "estudar", "en": "study", "es": "estudiar" } }
+          ]
+        },
+        {
+          "id": 4,
+          "nome": "Adjetivos comuns",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "grande", "en": "big", "es": "grande" } },
+            { "id": 2, "traducoes": { "pt": "pequeno", "en": "small", "es": "pequeño" } },
+            { "id": 3, "traducoes": { "pt": "bom", "en": "good", "es": "bueno" } },
+            { "id": 4, "traducoes": { "pt": "ruim", "en": "bad", "es": "malo" } },
+            { "id": 5, "traducoes": { "pt": "rápido", "en": "fast", "es": "rápido" } },
+            { "id": 6, "traducoes": { "pt": "lento", "en": "slow", "es": "lento" } }
+          ]
+        },
+        {
+          "id": 5,
+          "nome": "Orações simples",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "eu trabalho", "en": "I work", "es": "yo trabajo" } },
+            { "id": 2, "traducoes": { "pt": "eu estudo", "en": "I study", "es": "yo estudio" } },
+            { "id": 3, "traducoes": { "pt": "ele come", "en": "he eats", "es": "él come" } },
+            { "id": 4, "traducoes": { "pt": "nós bebemos água", "en": "we drink water", "es": "nosotros bebemos agua" } },
+            { "id": 5, "traducoes": { "pt": "eu vejo você", "en": "I see you", "es": "yo te veo" } }
           ]
         }
       ]
@@ -67,70 +69,47 @@
           "id": 1,
           "nome": "Verbos auxiliares",
           "palavras": [
-            {
-              "id": 1,
-              "traducoes": {
-                "pt": "ser/estar",
-                "en": "to be",
-                "es": "ser/estar"
-              }
-            },
-            {
-              "id": 2,
-              "traducoes": {
-                "pt": "ter",
-                "en": "to have",
-                "es": "tener"
-              }
-            },
-            {
-              "id": 3,
-              "traducoes": {
-                "pt": "poder",
-                "en": "can",
-                "es": "poder"
-              }
-            },
-            {
-              "id": 4,
-              "traducoes": {
-                "pt": "dever",
-                "en": "must",
-                "es": "deber"
-              }
-            },
-            {
-              "id": 5,
-              "traducoes": {
-                "pt": "deveria",
-                "en": "should",
-                "es": "debería"
-              }
-            },
-            {
-              "id": 6,
-              "traducoes": {
-                "pt": "ir (futuro próximo)",
-                "en": "going to",
-                "es": "ir a"
-              }
-            },
-            {
-              "id": 7,
-              "traducoes": {
-                "pt": "estar (gerúndio)",
-                "en": "be (continuous)",
-                "es": "estar (gerundio)"
-              }
-            },
-            {
-              "id": 8,
-              "traducoes": {
-                "pt": "ter (particípio)",
-                "en": "have (perfect)",
-                "es": "haber (perfecto)"
-              }
-            }
+            { "id": 1, "traducoes": { "pt": "ser/estar", "en": "to be", "es": "ser/estar" } },
+            { "id": 2, "traducoes": { "pt": "ter", "en": "to have", "es": "tener" } },
+            { "id": 3, "traducoes": { "pt": "poder", "en": "can", "es": "poder" } },
+            { "id": 4, "traducoes": { "pt": "dever", "en": "must", "es": "deber" } },
+            { "id": 5, "traducoes": { "pt": "deveria", "en": "should", "es": "debería" } },
+            { "id": 6, "traducoes": { "pt": "ir (futuro próximo)", "en": "going to", "es": "ir a" } },
+            { "id": 7, "traducoes": { "pt": "estar (gerúndio)", "en": "be (continuous)", "es": "estar (gerundio)" } },
+            { "id": 8, "traducoes": { "pt": "ter (particípio)", "en": "have (perfect)", "es": "haber (perfecto)" } }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Perguntas básicas",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "onde", "en": "where", "es": "donde" } },
+            { "id": 2, "traducoes": { "pt": "quando", "en": "when", "es": "cuando" } },
+            { "id": 3, "traducoes": { "pt": "por que", "en": "why", "es": "por qué" } },
+            { "id": 4, "traducoes": { "pt": "como", "en": "how", "es": "como" } },
+            { "id": 5, "traducoes": { "pt": "quanto", "en": "how much", "es": "cuanto" } }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Orações comuns",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "eu posso ajudar", "en": "I can help", "es": "yo puedo ayudar" } },
+            { "id": 2, "traducoes": { "pt": "eu devo estudar", "en": "I must study", "es": "yo debo estudiar" } },
+            { "id": 3, "traducoes": { "pt": "eu vou trabalhar", "en": "I am going to work", "es": "voy a trabajar" } },
+            { "id": 4, "traducoes": { "pt": "eu estou aprendendo", "en": "I am learning", "es": "estoy aprendiendo" } },
+            { "id": 5, "traducoes": { "pt": "eu tenho estudado", "en": "I have studied", "es": "he estudiado" } }
+          ]
+        },
+        {
+          "id": 4,
+          "nome": "Expressões comuns",
+          "palavras": [
+            { "id": 1, "traducoes": { "pt": "bom dia", "en": "good morning", "es": "buenos días" } },
+            { "id": 2, "traducoes": { "pt": "boa tarde", "en": "good afternoon", "es": "buenas tardes" } },
+            { "id": 3, "traducoes": { "pt": "boa noite", "en": "good night", "es": "buenas noches" } },
+            { "id": 4, "traducoes": { "pt": "obrigado", "en": "thank you", "es": "gracias" } },
+            { "id": 5, "traducoes": { "pt": "por favor", "en": "please", "es": "por favor" } }
           ]
         }
       ]
